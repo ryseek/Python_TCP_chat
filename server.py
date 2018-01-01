@@ -52,6 +52,7 @@ def run_server(host, port):
 
             userName = ''
             for user in self.active_users:
+                # проверяем, кто пишет сообщение
                 if user.user_transport == self.transport:
                     user.count = user.count + 1
                     if user.count == 1:
@@ -61,6 +62,7 @@ def run_server(host, port):
                     userName = user.user_name
 
             for user in self.active_users:
+                # проверяем, что не пишем сообщение самому себе
                 if user.user_transport != self.transport:
                     str = "[{}]: ".format(userName) + data + "\n"
                 else:
