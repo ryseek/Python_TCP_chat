@@ -7,12 +7,7 @@ The 'server.py' file is backend for chat. If you want to run it:
 2# Open terminal and execute this string "telnet <Server's IP> 8888"
 3# Chat to everybody on this server. You can open another terminal window and run telnet again to test server.
 
-(c) ryseek and kupreeva
-<<<<<<< HEAD
+There is also stress test to DDoS this server.
 
-=======
-<<<<<<< HEAD
-=======
-
->>>>>>> master
->>>>>>> pr/1
+Have fun!
+(c) ryseek & kupreeva
