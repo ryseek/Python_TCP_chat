@@ -8,4 +8,11 @@ The 'server.py' file is backend for chat. If you want to run it:
 3# Chat to everybody on this server. You can open another terminal window and run telnet again to test server.
 
 (c) ryseek and kupreeva
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
+>>>>>>> pr/1
